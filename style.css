@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+	font-family: "Rubik", sans-serif;
+}
+
 /* Top nav bar start */
 .responsive-div {
 	padding: 12px 0 0 0;
@@ -206,6 +212,7 @@
 	border: none;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
+	font-family: "Rubik", sans-serif !important;
 }
 
 .btn-get-started:hover {
@@ -278,6 +285,10 @@
 
 .our-service-th-left img {
 	height: auto;
+}
+
+.footer-para{
+	font-family: "Rubik", sans-serif !important;
 }
 
 /* our service css end  */
@@ -454,6 +465,8 @@
 		margin: 10px;
 		padding: 0;
 	}
+
+	
 }
 
 @media (max-width: 768px) {
