@@ -446,9 +446,9 @@
 		/* padding: 10px; */
 	}
 
-	.footer-th-right a img {
-		/* height: 20px; */
-	}
+	/* .footer-th-right a img {
+		height: 20px;
+	} */
 
 	.footer-th-right .small-img {
 		height: 15px;
@@ -464,43 +464,39 @@
 	.footer-th-right ul {
 		margin: 10px;
 		padding: 0;
-	}
-
-	
+	}	
 }
 
-@media (max-width: 768px) {
-	/* our service css start */
+@media (max-width: 768px){
+	/* benefits css start */
 
-	.our-service-th-left th {
+	.benefit-top-table {
+		display: block;
+		margin: 10px 50px;
+	}
+
+	.benefits-card{
+		display: block !important;
+	}
+
+	.benefit-th-card-text {
 		width: 100%;
-		text-align: center;
-		padding: 15px 0px 0px 0px;
 		display: block;
 	}
 
-	.our-service-table {
-		display: block;
-	}
-
-	.our-service-th-right {
+	.benefit-top-table th {
 		display: block;
 		width: 100%;
-		text-align: left;
+		/* margin-bottom: 10px; */
 	}
 
-	.our-service-th-left {
-		display: block;
-		width: 100%;
-		margin-top: 20px;
-		text-align: center;
-		margin-right: 50px;
+	.benefit-top-table th:first-child {
+		border-radius: 10px 10px 0 0;
 	}
 
-	.our-service-th-left img {
-		width: 100%;
-		max-width: 100%;
+	.benefit-top-table th:last-child {
+		border-radius: 0 0 10px 10px;
 	}
 
-	/* our service css end */
+	/* benefits css end */
 }
