@@ -46,7 +46,7 @@
 
 /* bottom header-main text  Start*/
 .bottom-header-div {
-	padding: 8px 30px 14px;
+	padding: 50px 50px 0px 50px;
 	color: #fff;
 	font-family: Kameron;
 }
@@ -318,6 +318,11 @@
 
 	.benefit-top-table {
 		display: block;
+		margin: 10px 20px;
+	}
+
+	.benefits-card{
+		display: block !important;
 	}
 
 	.benefit-th-card-text {
@@ -328,7 +333,7 @@
 	.benefit-top-table th {
 		display: block;
 		width: 100%;
-		margin-bottom: 10px;
+		/* margin-bottom: 10px; */
 	}
 
 	.benefit-top-table th:first-child {
@@ -365,10 +370,11 @@
 		width: 100%;
 		margin-top: 20px;
 		text-align: center;
+		margin-right:  20px !important;
 	}
 
 	.our-service-th-left img {
-		width: 100%;
+		width: 100% !important;
 		max-width: 100%;
 	}
 
@@ -376,7 +382,7 @@
 
 	/* bottom header text  */
 	.bottom-header-div {
-		padding: 8px 10px 14px;
+		padding: 8px 10px 0px 10px;
 	}
 
 	.bottom-header-main-text {
@@ -393,7 +399,9 @@
 
 	.bottom-header-div p {
 		font-size: 16px;
+		padding: 0 30px;
 	}
+	
 
 	/*  footer most top section  css start */
 
@@ -403,7 +411,7 @@
 	}
 
 	/*  footer most top section  css end */
-
+ß
 	/* Footer  */
 	.footer-div {
 		margin: 1px 5px 0 5px;
